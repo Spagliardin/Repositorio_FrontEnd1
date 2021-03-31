@@ -1,0 +1,53 @@
+body{
+    font-family: Calibri, Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+header{
+    text-align: center;
+    background-color: #90EE90;
+    margin-top: 5px;
+}
+main{
+    margin: 50px auto;
+    max-width: 800px;  
+}
+section{
+    margin-top: 30 px;
+}
+h1{
+    background-color: #8df3f3ec;
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size: 20 px;
+    color: #00005c;
+    font-family: Cambria, Times, serif;
+}
+h2{
+    font-size: 15 px;
+    background-color: #7fffd495;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: normal;
+    color: #21215a;
+    font-family: Cambria, Times, serif;
+}
+li, dl {
+    font-style: normal;
+    font-variant: small-caps;
+    margin-left: 160px;
+}
+.detalle1{
+    font-weight: bold;
+    color: #3baa3b;
+    text-decoration: underline;
+}
+footer{
+    background-color: #85ee85;
+    text-align: center;
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+.imagenfinal{
+    width: 20px;
+    height: 20px;
+}
