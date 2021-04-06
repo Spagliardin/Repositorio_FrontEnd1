@@ -14,10 +14,15 @@ body{
     color: white;
     font-size: 18px;
 }
+.textoBanner{
+    margin-left: 5px;
+    margin-right: 5px;
+}
 h1{
     text-align: center;
     font-weight: bold;
     text-transform: uppercase;
+    font-size: 100px;
 }
 
 h2{
@@ -25,8 +30,13 @@ h2{
     font-family: 'Playfair Display', serif;
     font-weight: bold;
     text-decoration: underline;
+    background-color: rgba(218, 165, 32, 0.5);
 }
 h3{
     font-family: 'Times New Roman', serif;
     font-weight: bold;
+    margin-left: 10px;
+    background-color: rgba(218, 165, 32, 0.3);
+    font-variant:inherit;
+    margin-right: 1000px;
 }
