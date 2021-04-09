@@ -8,6 +8,7 @@ body{
 
 .banner{
     background-image: url(../img/lemon-pie2.jpg);
+    background-attachment: scroll;
     background-size: cover;
     background-position: center;
     height: 343px;
