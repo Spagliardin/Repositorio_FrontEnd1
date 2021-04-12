@@ -14,22 +14,23 @@ main{
 section{
     margin-top: 30 px;
 }
-h1{
-    background-color: #8df3f3ec;
-    text-transform: uppercase;
+
+h1,h2 {
     font-weight: normal;
+    font-family: Cambria, Times, serif;
+    text-transform: uppercase;
+}
+h1{
+    background-color: #8df3f3ec;   
     font-size: 20 px;
     color: #00005c;
-    font-family: Cambria, Times, serif;
+    
 }
 h2{
     font-size: 15 px;
     background-color: #7fffd495;
     text-align: center;
-    text-transform: uppercase;
-    font-weight: normal;
     color: #21215a;
-    font-family: Cambria, Times, serif;
 }
 li, dl {
     font-style: normal;
