@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+    <link rel="stylesheet" href="./CSS/style.css">
+</head>
+<body>
+    <aside>20% de descuento en todos los productos!</aside>
+    <header>
+        <h1><img class="logo-tienda" src="./IMG/OBJECTS.png" al="logo-notebook-tienda"><span class="nombre">Nombre Tienda</span></h1>
+    </header>
+    <form>
+    <div class="registro">
+        <h2>Registro</h2>
+
+        <article class="nombre_apellido">
+        <label for="nombre_apellido"></label>
+        <input type="nombre_apellido" name="nombre_apellido"
+                    placeholder="Nombre y Apellido">
+        </article>
+    
+        <article class="email">
+        <label for="email"></label>
+        <input type="email" name="email"
+            placeholder="Correo electronico"
+            oninvalide="setCustomValidity"('Por favor ingrese su email') required>
+        </article>
+
+        <article class="password">
+        <label for="password"></label>    
+        <input type="password" name="password" placeholder="Contraseña" required>
+        </article>
+
+        <article class="pais">
+            <label for="pais"></label> 
+            <select class="input-box" name="pais" id="pais" required>
+                <option class="input-box" disabled selected hidden>Seleccionar país</option>
+                <option value="ninguno">Seleccione</option>
+                <option value="Argentina">Argentina</option>
+                <option value="Colombia">Colombia</option>
+                <option value="Brasil">Brasil</option>
+        </select>  
+        </article>
+
+        <article>
+        <button type="reset" id="button1">Resetear</button>
+        <button type="submit" id="button2">Entrar</button>
+        </article>
+
+        <article class="registrarse">
+        <span class="texto">¿Ya tenés una cuenta?</span> <span>Ingresar</span>
+        </article>
+    </div>    
+    </form>
+    <footer>
+            <p id="derechos">Todos los derechos reservados a FRONT END 1</p>
+    </footer>
+</body>
+</html>

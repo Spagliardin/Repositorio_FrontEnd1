@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nombre Tienda - Iniciar sesion</title>
+    <link rel="stylesheet" href="./CSS/style.css">
+</head>
+<body>
+    <aside>20% de descuento en todos los productos!</aside>
+    <header>
+        <h1><img class="logo-tienda" src="./IMG/OBJECTS.png" al="logo-notebook-tienda"><span class="nombre">Nombre Tienda</span></h1>
+    </header>
+    <form>
+    <div class="login">
+        <h2>Login</h2>
+
+        <article class="email">
+        <label for="email"></label>
+        <input type="email" name="email"
+            placeholder="Usuario"
+            oninvalid="setCustomValidity"(Por favor ingrese su email)>
+        </article>
+
+        <article class="password">
+        <label for="password"></label>    
+        <input type="password" name="password" placeholder="Contraseña">
+        </article>
+
+        <article>
+        <button type="submit" id="button2">Entrar</button>
+        </article>
+        <article class="registrarse">
+        <span class="texto">No tenés una cuenta?</span> <span>Registrarme</span>
+        </article>
+    </div>    
+</form>
+    <footer>
+            <p id="derechos">Todos los derechos reservados a FRONT END 1</p>
+    </footer>
+</body>
+</html>

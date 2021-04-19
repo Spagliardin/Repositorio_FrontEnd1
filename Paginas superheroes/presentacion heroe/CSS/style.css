@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Karla&family=Roboto&display=swap');
+body{
+    margin: 0;
+}
+aside{
+    position: relative;
+    background-color: #1CD1B0;
+    font-family: 'Roboto', sans-serif;
+    padding-left: 10px;
+}
+h1{
+    height: 70px;
+    background-color: #00669F;
+    box-shadow: 0px 4px 4px 0px #00000040;
+    font-family: 'Roboto', sans-serif;    
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    color: white;
+    margin: 0;
+    padding-top: 10px;
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+
+.tarjetas{
+    display: flex; 
+    align-items: stretch;
+    background-image: url(../IMG/bg\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+ 
+.card-2{
+    margin-left: 100px;
+    margin-bottom: 20px;
+    width: 450px;
+    position: relative;
+    left: 350px;
+    bottom: 25px;
+}
+
+.card-header2 {
+    display: block;
+    height: 150px;
+    margin: 0 auto;
+    background-size: cover;
+}
+
+.card-body {
+    position: relative;
+    bottom: 85px;
+    right: 50px;
+    background-color: #F3F3F3;
+    height: 350px;
+    width: 500px;
+    text-align: center;
+    font-size: 13px;
+    border-radius: 45px 45px 0 0;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+} 
+
+.perfil {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto;
+    align-items: center;
+    position: relative;
+    top: 30px;
+    right: 20px;
+    z-index: 100;
+}
+h2{
+    text-decoration: underline;
+    color: #2C0187;
+    padding-top: 20px;
+}
+.texto{
+    text-align: left;
+    padding: 0px 20px;
+}
+.letra-especial, .letra-especial-2{
+    color: #2C0187;
+}
+.letra-especial-2{
+    font-style: italic;
+}
+.button {
+    background-color: #2C0187;
+    border-radius: 0 0 45px 45px;
+    height: 30px;
+    width: 500px;
+    color: white;
+    padding: 25px 0;
+    position: relative;
+    top: 20px;
+    align-items: center;
+    
+} 
+.corazon-1{
+    z-index: 100;
+    position: relative;
+    right: 150px;
+    top: 60px;
+}
+.corazon-2{
+    position: relative;
+    right: 190px;
+    top: 60px;
+}
+.bate{
+    position: relative;
+    right: 10px;
+    z-index: 100;
+}
+.cosa-rara{
+    z-index: 100;
+    position: relative;
+    left: 39px;
+}
+.borde-cosa-rara{
+    position: relative;
+    right: 20px;
+    z-index: 101;
+}
+.pistola{
+    position: relative;
+    left: 51px;
+    z-index: 100;
+}
+.borde-pistola{
+    position: relative;
+    z-index: 130;
+}
+footer{
+    position: relative;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: #00669F;
+    box-shadow: 0px 4px 4px 0px #00000040;
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;  
+}
