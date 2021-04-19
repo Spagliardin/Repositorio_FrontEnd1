@@ -132,7 +132,10 @@ a:visited{
 p{
     text-align: left;
 }
-
+.corazon{
+    z-index: 100;
+    padding: 10px;
+}
 .button {
     background-color: #00669F;
     border-radius: 7px;
