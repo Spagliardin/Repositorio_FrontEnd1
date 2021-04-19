@@ -41,8 +41,7 @@ h1{
     position: relative;
     align-items: center;
     font-family: 'Inter', sans-serif;;
-    margin: 132px 350px;
-    padding-left: 100px;
+    margin: 127px auto;
     width: 400px;
 }
 h2{
@@ -62,6 +61,23 @@ input{
 .registrarse{
     font-family: 'Karla', sans-serif;
     text-align: center;
+    padding-top: 5px;
+}
+.buttonlink{
+    color: black;
+    text-decoration: none;
+}
+a:visited{
+    color: black;
+    text-decoration: none;
+}
+.textolink{
+    color: black;
+    text-decoration: none;
+}
+a:visited{
+    color: black;
+    text-decoration: none;
 }
 #button2{
     background: #1CD1B0;

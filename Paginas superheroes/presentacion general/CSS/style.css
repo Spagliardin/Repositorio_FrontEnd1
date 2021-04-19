@@ -49,6 +49,22 @@ h1{
     padding: 5px;
     word-spacing: 20px;
 }
+.contacto{
+    color: white;
+    text-decoration: none;
+}
+.registro{
+    color: white;
+    text-decoration: none;
+}
+.iniciar{
+    color: white;
+    text-decoration: none;
+}
+a:visited{
+    color: white;
+    text-decoration: none;
+}
 .tarjetas{
     display: flex; 
     align-items: stretch;
@@ -62,7 +78,14 @@ h1{
     width: 300px;
     box-sizing: border-box;
 } 
-
+.boton-harley{
+    color: white;
+    text-decoration: none;
+}
+.boton-harley:visited{
+    color: white;
+    text-decoration: none;
+}
 .card-header, .card-header2, .card-header3 {
     border-radius: 12px 12px 0px 0px;
     display: block;
@@ -119,6 +142,9 @@ p{
     padding: 7px, 0px;
     color: white;
 } 
+#derechos{
+    text-align: center;
+}
 
 footer{
     position: relative;
@@ -126,7 +152,6 @@ footer{
     padding-bottom: 5px;
     background-color: #00669F;
     box-shadow: 0px 4px 4px 0px #00000040;
-    align-items: center;
     color: white;
     font-size: 15px;
     font-family: 'Roboto', sans-serif;  

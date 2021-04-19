@@ -20,19 +20,19 @@
         <label for="email"></label>
         <input type="email" name="email"
             placeholder="Usuario"
-            oninvalid="setCustomValidity"(Por favor ingrese su email)>
+            oninvalid="setCustomValidity"(Por favor ingrese su email) required>
         </article>
-
+ 
         <article class="password">
         <label for="password"></label>    
-        <input type="password" name="password" placeholder="Contraseña">
+        <input type="password" name="password" placeholder="Contraseña" required>
         </article>
 
-        <article>
-        <button type="submit" id="button2">Entrar</button>
+        <article class="registrarse">
+        <button type="submit" id="button2"><a href="../presentacion general/index.html" class="buttonlink">Entrar</a></button>
         </article>
         <article class="registrarse">
-        <span class="texto">No tenés una cuenta?</span> <span>Registrarme</span>
+        <span class="texto">No tenés una cuenta?</span> <span><a href="../incio con registro/index.html" class="textolink">Registrarme</a></span>
         </article>
     </div>    
 </form>
