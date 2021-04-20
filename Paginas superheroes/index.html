@@ -12,10 +12,13 @@
     <header>
         <h1><img class="logo-tienda" src="./IMG/OBJECTS.png" al="logo-notebook-tienda"><span class="nombre">Nombre Tienda</span></h1>
     </header>
-    <form action="" method="GET">
+    <form action="./html/general.html" method="GET"> <!-- la carpeta html hacela en minuscula, tene en cuenta no aplicar mayusculas en la primera letra de nuestros archivos del repositorio -->
+        
+        <!-- si el boton que esta en la parte inferior es de tipo "submit" va a enviar el formulario, y la acción que debe tomar el formulario se lo damos en la etiqueta form, 
+        te propongo unos cambios para ver si funciona -->
     <div class="login">
         <h2>Login</h2>
-
+        
         <article class="email">
         <label for="email"></label>
         <input type="email" name="email"
@@ -29,10 +32,10 @@
         </article>
 
         <article class="registrarse">
-        <button type="submit" id="button2"><a href="./HTML/general.html" class="buttonlink">Entrar</a></button>
+        <button type="submit" id="button2"></button>
         </article>
         <article class="registrarse">
-        <span class="texto">No tenés una cuenta?</span> <span><a href="./HTML/registro.html" class="textolink">Registrarme</a></span>
+        <span class="texto">No tenés una cuenta?</span> <span><a href="./HTML/registro.html" class="textolink">Registrarme</a></span> <!-- este span, al no ser un boton, tendria que funcionar -->
         </article>
     </div>    
 </form>
